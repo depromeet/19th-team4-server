@@ -3,6 +3,7 @@ plugins {
 }
 
 dependencies {
+    implementation(project(":core:domain"))
     implementation(project(":core:business"))
     implementation(project(":infra:ai"))
     implementation(project(":infra:storage"))
