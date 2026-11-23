@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: saju-public-api
+  profiles:
+    default: local
+  config:
+    import:
+      - classpath:domain.yml
